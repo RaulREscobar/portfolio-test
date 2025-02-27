@@ -2,9 +2,8 @@
 defineProps({
     size: String,
 })
-
 </script>
 
 <template>
-<v-icon :size="size">mdi-account-circle</v-icon>
+<v-img aspect-ratio="1/1" :height=size cover src="@/../public/foto-site.jpg"></v-img>
 </template>

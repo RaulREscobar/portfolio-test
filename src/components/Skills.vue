@@ -5,7 +5,6 @@ const skills = [
     'React',
     'Vue',
     'vuetify'
-
 ]
 </script>
 

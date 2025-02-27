@@ -1,4 +1,3 @@
 <template>
-    <h3>¡¡Hola!!</h3>
-    <p class="ml-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit blanditiis sequi ad necessitatibus, obcaecati soluta perspiciatis illum, mollitia fugiat molestiae consequuntur repellendus, neque nisi provident veniam cupiditate hic? In, incidunt.</p>    
+    <p class="text-justify">Desarrollador con varios años de experiencia en el sector IT,capaz de trabajar de manera autónoma y resolver problemas de forma eficiente. Me destaco por mi capacidad de aprendizaje autodidacta, mi responsabilidad y mi atención al detalle. Disfruto de los desafíos técnicos y me mantengo en constante actualización para dominar nuevas tecnologías y metodologías de trabajo, garantizando soluciones innovadoras y de calidad en cada proyecto.</p>    
 </template>

@@ -1,10 +1,10 @@
 <template>
     <v-container>
         <v-row>
-            <v-col cols="4">
-                <Avatar size="150" />
+            <v-col cols="12" md="4">
+                <Avatar size="300" />
             </v-col>
-            <v-col cols="8">
+            <v-col cols="12" md="8">
                 <Hellow />
             </v-col>
         </v-row>
@@ -15,7 +15,6 @@
         </v-row>
         <h2 class="text-start">Proyectos</h2>
         <v-row class="pa-4">
-
             <v-card class="mt-8">
                 <v-row>
                     <v-col cols="4">
