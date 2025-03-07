@@ -1,0 +1,3 @@
+<template>
+    Página CV
+</template>
