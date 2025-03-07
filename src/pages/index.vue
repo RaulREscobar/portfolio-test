@@ -9,9 +9,9 @@
             </v-col>
         </v-row>
         <v-row justify="space-around">
-            <v-btn variant="text" prepend-icon="mdi-code-block-tags" stacked>Proyectos</v-btn>
-            <v-btn variant="text" prepend-icon="mdi-file-document-outline" stacked>C.V.</v-btn>
-            <v-btn variant="text" prepend-icon="mdi-human-greeting-proximity" stacked>Contactame</v-btn>
+            <v-btn href="/Proyectos" variant="text" prepend-icon="mdi-code-block-tags" stacked>Proyectos</v-btn>
+            <v-btn href="/CV" variant="text" prepend-icon="mdi-file-document-outline" stacked>CV</v-btn>
+            <v-btn href="/Contactame" variant="text" prepend-icon="mdi-human-greeting-proximity" stacked>Contactame</v-btn>
         </v-row>
         <h2 class="text-start">Proyectos</h2>
         <v-row class="pa-4">
