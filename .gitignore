@@ -6,6 +6,10 @@
 .cache
 dist
 
+#Firebase
+firebase.js
+.firebase
+
 # Node dependencies
 node_modules
 
