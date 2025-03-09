@@ -21,7 +21,7 @@ const links = [
           {{ link }}
         </v-btn>
         <v-col class="text-center mt-4" cols="12">
-          {{ new Date().getFullYear() }} — <strong>RaulDev</strong>
+          {{ new Date().getFullYear() }} — <strong>EscCode</strong>
         </v-col>
       </v-row>
     </v-footer>
