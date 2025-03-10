@@ -79,8 +79,7 @@ const proyects = [
 <template>
     <v-conteiner>
         <h1 class="text-center">
-            Mis sitios realizados en
-            {{ route.params.id }}
+            Aquí puedes ver mis proyectos
         </h1>
 
         <v-row class="mt-2">
