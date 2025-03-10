@@ -56,8 +56,9 @@
             </v-card>
         </v-row>
         <v-row justify="end">
-            <v-btn variant="text" href="/proyectos" >Ver proyectos</v-btn>
+            <v-btn variant="text" href="/proyectos">Ver proyectos</v-btn>
         </v-row>
-        <Skills />
+        <!-- <Skills /> -->
 
-    </v-container></template>
+    </v-container>
+</template>

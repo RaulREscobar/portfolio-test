@@ -4,9 +4,9 @@
 
 <template>
     <v-container>
-        <h2 class="text-start">CONTACTAME</h2>
-        <v-sheet width="300" class="mx-auto">
-    <v-form fast-fail @submit.prevent>
+        <h2 class="text-center">CONTACTAME</h2>
+        <v-sheet width="350" class="mx-auto">
+    <v-form fast-fail @submit.prevent class="pa-5">
       <v-text-field
         v-model="input"
         label="Nombre"
