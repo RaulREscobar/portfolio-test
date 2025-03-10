@@ -6,6 +6,7 @@ import imgPaula from '@/assets/paula.png';
 import imgDeLaLuz from '@/assets/delaluz.jpg';
 import imgNaranjos from '@/assets/naranjos.jpg';
 import imgRamallo from '@/assets/ramallo.jpg';
+import imgCc from '@/assets/cc.png';
 
 
 
@@ -25,12 +26,12 @@ const proyects = [
         img: imgChongazen,
     },
     {
-        name: "Atym",
+        name: "Lamparas DeLaLuz",
         category: "Sitio web Wordpress",
-        description: "Atym.online es un estudio de diseño gráfico que se especializa en la creación de identidades visuales, marcas e historias. Ofrecen servicios de diseño de branding y consultorías personales, acompañando a sus clientes en el desarrollo de su mejor versión gráfica.",
-        colorBtn: "light-blue-lighten-2",
-        url: "https://atym.online",
-        img: imgAtym,
+        description: "El sitio web lamparasdelaluz.com es una tienda online de iluminación artesanal. Se especializa en la venta de lámparas de diseño, ofreciendo una variedad de productos como lámparas colgantes, de pie, de mesa y apliques para interiores y exteriores.",
+        colorBtn: "brown-lighten-2",
+        url: "https://lamparasdelaluz.com",
+        img: imgDeLaLuz,
     },
     {
         name: "Paula Aranoa",
@@ -41,12 +42,12 @@ const proyects = [
         img: imgPaula,
     },
     {
-        name: "Lamparas DeLaLuz",
+        name: "Atym",
         category: "Sitio web Wordpress",
-        description: "El sitio web lamparasdelaluz.com es una tienda online de iluminación artesanal. Se especializa en la venta de lámparas de diseño, ofreciendo una variedad de productos como lámparas colgantes, de pie, de mesa y apliques para interiores y exteriores.",
-        colorBtn: "brown-lighten-2",
-        url: "https://lamparasdelaluz.com",
-        img: imgDeLaLuz,
+        description: "Atym.online es un estudio de diseño gráfico que se especializa en la creación de identidades visuales, marcas e historias. Ofrecen servicios de diseño de branding y consultorías personales, acompañando a sus clientes en el desarrollo de su mejor versión gráfica.",
+        colorBtn: "light-blue-lighten-2",
+        url: "https://atym.online",
+        img: imgAtym,
     },
     {
         name: "Fundación los Naranjos",
@@ -63,6 +64,14 @@ const proyects = [
         colorBtn: "red-lighten-2",
         url: "https://ramalloinforma.com.ar/",
         img: imgRamallo,
+    },
+    {
+        name: "Carolina Calderon",
+        category: "Sitio web Wordpress",
+        description: "El sitio web carolina-calderon.com es una plataforma profesional dedicada a la asesoría de imagen personal. Ofrece servicios personalizados, tanto presenciales como en línea, orientados a ayudar a individuos a descubrir y potenciar su estilo personal.",
+        colorBtn: "brown-lighten-2",
+        url: "https://carolina-calderon.com/",
+        img: imgCc,
     },
 ]
 </script> 
