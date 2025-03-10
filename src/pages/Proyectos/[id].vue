@@ -1,8 +1,12 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from 'vue';
 import imgChongazen from '@/assets/chongazen.png';
 import imgAtym from '@/assets/atym.jpg';
-import imgPaula from '@/assets/paula.png'
+import imgPaula from '@/assets/paula.png';
+import imgDeLaLuz from '@/assets/delaluz.jpg';
+import imgNaranjos from '@/assets/naranjos.jpg';
+import imgRamallo from '@/assets/ramallo.jpg';
+
 
 
 definePageMeta({
@@ -42,7 +46,23 @@ const proyects = [
         description: "El sitio web lamparasdelaluz.com es una tienda online de iluminación artesanal. Se especializa en la venta de lámparas de diseño, ofreciendo una variedad de productos como lámparas colgantes, de pie, de mesa y apliques para interiores y exteriores.",
         colorBtn: "brown-lighten-2",
         url: "https://lamparasdelaluz.com",
-        img: imgPaula,
+        img: imgDeLaLuz,
+    },
+    {
+        name: "Fundación los Naranjos",
+        category: "Sitio web Wordpress",
+        description: "El sitio web fundacionlosnaranjos.org es un sitio institucional y de impacto social. Representa a una organización sin fines de lucro que brinda formación y oportunidades laborales a jóvenes en situación de vulnerabilidad a través del trabajo con cerámica.",
+        colorBtn: "orange-lighten-2",
+        url: "https://fundacionlosnaranjos.org/",
+        img: imgNaranjos,
+    },
+    {
+        name: "Ramallo Informa",
+        category: "Sitio web Wordpress",
+        description: "El sitio web ramalloinforma.com.ar es un portal de noticias local que se centra en proporcionar información actualizada sobre diversos aspectos de la ciudad de Ramallo y sus alrededores. Cubre una amplia gama de secciones.",
+        colorBtn: "red-lighten-2",
+        url: "https://ramalloinforma.com.ar/",
+        img: imgRamallo,
     },
 ]
 </script> 
@@ -55,8 +75,8 @@ const proyects = [
         </h1>
 
         <v-row class="mt-2">
-            <v-card v-for="item of proyects" :key=item.name class="mx-auto" max-width="344" width="250px">
-            <v-img height="200px" :src=item.img ></v-img>
+            <v-card v-for="item of proyects" :key=item.name class="mx-auto ma-6" max-width="344" width="250px">
+            <v-img height="200px" :src=item.img cover ></v-img>
 
             <v-card-title>
                 {{ item.name }}
