@@ -18,10 +18,10 @@
         <v-row class="pa-4">
             <v-card class="mt-8">
                 <v-row class="pa-4">
-                    <v-col cols="4">
+                    <v-col cols="12" md="4">
                         <v-img src='@/assets/wordpress.png' height="100%"></v-img>
                     </v-col>
-                    <v-col cols="8" align-self="center">
+                    <v-col cols="12" md="8" align-self="center">
                         <v-card-text>
                             WordPress es un sistema de gestión de contenido (CMS) de código abierto que permite crear y
                             administrar sitios web de forma sencilla. Es la plataforma más popular del mundo, utilizada
@@ -36,10 +36,10 @@
             </v-card>
             <v-card class="mt-8">
                 <v-row class="pa-4">
-                    <v-col cols="4">
+                    <v-col cols="12" md="4">
                         <v-img src='@/assets/web.png' height="100%"></v-img>
                     </v-col>
-                    <v-col cols="8" align-self="center">
+                    <v-col cols="12" md="8" align-self="center">
                         <v-card-text>
                             El desarrollo web a medida es la creación de sitios y aplicaciones web personalizados según
                             las necesidades específicas de un cliente o negocio. A diferencia de los CMS o plataformas
