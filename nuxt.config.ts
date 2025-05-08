@@ -3,7 +3,6 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 export default defineNuxtConfig({
   devtools: { enabled: true },
   srcDir: 'src',
-
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
@@ -14,7 +13,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-
+  css: ['vuetify/styles', '@mdi/font/css/materialdesignicons.css'],
   build: {
     transpile: ['vuetify'],
   },

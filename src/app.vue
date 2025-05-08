@@ -1,10 +1,8 @@
 <template>
   <div>
-    <AppHeader />
     <NuxtLayout>
-        <NuxtPage />
+      <NuxtPage />
     </NuxtLayout>
-    <AppFooter />
   </div>
 </template>
 
@@ -13,6 +11,7 @@
 .page-leave-active {
   transition: all 0.4s;
 }
+
 .page-enter-from,
 .page-leave-to {
   opacity: 0;

@@ -5,6 +5,7 @@ import * as directives from 'vuetify/directives';
 
 import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
+import { defineNuxtPlugin } from '#app'
 
 export default defineNuxtPlugin((app) => {
   const vuetify = createVuetify({
