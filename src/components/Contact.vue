@@ -51,12 +51,12 @@
           <v-col cols="12" class="text-center">
             <p class="text-white">O escribime directamente a:</p>
             <v-btn
-              href="mailto:tuemail@dominio.com"
+              href="mailto:raul.r.escobar@gmail.com"
               color="secondary"
               variant="outlined"
               class="mt-2"
             >
-              tuemail@dominio.com
+              raul.r.escobar@gmail.com
             </v-btn>
           </v-col>
         </v-row>

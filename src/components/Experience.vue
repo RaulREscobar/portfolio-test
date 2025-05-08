@@ -33,11 +33,11 @@
       title: 'Desarrollador Web Freelance',
       place: 'Proyectos personales y clientes',
       date: '2021 - Presente',
-      description: 'Diseño y desarrollo de sitios y aplicaciones web a medida, trabajando con Vue, Nuxt, Firebase y CMS como WordPress. Comunicación directa con clientes, resolución de problemas y entregas en tiempo.',
+      description: 'Diseño y desarrollo de sitios y aplicaciones web a medida, trabajando con Vue, Nuxt, React, Next, Firebase y CMS como WordPress. Comunicación directa con clientes, resolución de problemas y entregas en tiempo.',
       color: 'primary',
     },
     {
-      title: 'Estudios en Desarrollo de Software',
+      title: 'Estudios Universitarios en Desarrollo de Software',
       place: 'Instituto / Universidad',
       date: '2025 - En curso',
       description: 'Formación académica que refuerza mi capacidad de análisis, arquitectura de software y trabajo en equipo. Complemento ideal para mi experiencia práctica.',
@@ -45,10 +45,17 @@
     },
     {
       title: 'Colaboración en proyectos',
-      place: 'Diversos equipos de desarrollo',
-      date: '2022 - 2024',
-      description: 'Participación en proyectos grupales bajo metodologías ágiles. Foco en frontend, propuestas de mejora UX/UI, testing y documentación.',
+      place: 'Desarrollo de API',
+      date: '2024 - 2024',
+      description: 'Participación en un equipo de desarrollo de una API para subastas, utilizando NestJS, Prisma, SQL, WebSockets, JWT, entre otras tecnologías.',
       color: 'secondary',
+    },
+    {
+      title: 'Curso de Desarrollo Web Full Stack',
+      place: 'Fundación formar - Digital Hause',
+      date: '2021',
+      description: 'Curso de Desarrollo Web Full Stack con formación complementaria en habilidades blandas, trabajo en equipo y metodologías ágiles.',
+      color: 'accent',
     },
   ]
   </script>

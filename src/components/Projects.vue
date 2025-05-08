@@ -57,27 +57,31 @@
   </template>
   
   <script setup>
+    import imgGS from '../assets/gs.jpg';
+    import imgLDL from '../assets/delaluz.jpg';
+    import imgLogo from '../../public/logo.png';
+
   const projects = [
     {
       title: 'Portfolio Nuxt',
       description: 'Sitio personal desarrollado con Nuxt 3 y Vuetify para mostrar mis habilidades como frontend.',
-      image: '/projects/portfolio-nuxt.jpg',
-      live: 'https://miportfolio.com',
-      repo: 'https://github.com/usuario/portfolio-nuxt',
+      image: imgLogo,
+      live: '/',
+      repo: '',
     },
     {
       title: 'Tienda Online',
-      description: 'E-commerce personalizado con integración a pasarela de pagos y panel de administración.',
-      image: '/projects/tienda-online.jpg',
-      live: 'https://mitienda.com',
-      repo: 'https://github.com/usuario/tienda-online',
+      description: 'El sitio web lamparasdelaluz.com es una tienda online de iluminación artesanal. Se especializa en la venta de lámparas de diseño, ofreciendo una variedad de productos como lámparas colgantes, de pie, de mesa y apliques para interiores y exteriores.',
+      image: imgLDL,
+      live: 'https://lamparasdelaluz.com',
+      repo: '',
     },
     {
-      title: 'Gestor de Pedidos',
-      description: 'App web para gestionar pedidos en tiempo real entre sucursales usando Firebase y Vue.',
-      image: '/projects/gestor-pedidos.jpg',
-      live: '',
-      repo: 'https://github.com/usuario/gestor-pedidos',
+      title: 'SPA personalizada',
+      description: 'El sitio web gransabanaremesas.web.app es una plataforma que ofrece servicios de envío de remesas. Esta orientado a facilitar transferencias de dinero, posiblemente enfocándose en la comunidad venezolana.',
+      image: imgGS,
+      live: 'https://gransabanaremesas.web.app/',
+      repo: '',
     },
   ]
   </script>
