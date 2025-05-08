@@ -6,12 +6,13 @@
         <h2 class="text-h5 font-weight-medium mb-6">Desarrollador Web FullStack</h2>
         <div>
             <v-btn color="primary" class="mr-4" @click="scrollTo('#contact')">Contáctame</v-btn>
-            <v-btn variant="outlined" href="../assets/cv.pdf" target="_blank">Ver CV</v-btn>
+            <v-btn variant="outlined" :href="cv" rel="noopener" target="_blank">Ver CV</v-btn>
         </div>
     </section>
 </template>
 
 <script setup>
+import cv from '../../public/cv.pdf'
 const scrollTo = (selector) => {
     const el = document.querySelector(selector)
     if (el) el.scrollIntoView({ behavior: 'smooth' })

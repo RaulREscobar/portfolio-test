@@ -6,7 +6,7 @@
       <Skills />
       <Projects />
       <Experience />
-      <Testimonials />
+     <!--  <Testimonials /> -->
       <Contact />
       <AppFooter />
     </div>
@@ -19,7 +19,7 @@
   import Skills from '~/components/Skills.vue';
   import Projects from '~/components/Projects.vue';
   import Experience from '~/components/Experience.vue';
-  import Testimonials from '~/components/Testimonials.vue';
+  //import Testimonials from '~/components/Testimonials.vue';
   import Contact from '~/components/Contact.vue';
   import AppFooter from '~/components/AppFooter.vue';
   </script>
