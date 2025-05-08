@@ -5,7 +5,14 @@ export default defineNuxtConfig({
   srcDir: 'src',
 
   app: {
-    pageTransition: { name: 'page', mode: 'out-in' }
+    pageTransition: { name: 'page', mode: 'out-in' },
+    head: {
+      title: 'Raul | Desarrollador Web',
+      meta: [
+        { name: 'description', content: 'Portfolio personal de Raul Escobar, desarrollador web.' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      ],
+    },
   },
 
   build: {

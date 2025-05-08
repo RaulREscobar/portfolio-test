@@ -2,7 +2,7 @@
 
 const links = [
     'Proyectos',
-    'C.V.',
+    'CV',
     'Contactame',
 ]
 </script>
@@ -17,6 +17,7 @@ const links = [
           variant="text"
           class="mx-2"
           rounded="xl"
+          :href=link
         >
           {{ link }}
         </v-btn>

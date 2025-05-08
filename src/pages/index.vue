@@ -1,4 +1,20 @@
 <template>
+    <div>
+      <Hero />
+      <About />
+      <Skills />
+    </div>
+  </template>
+  
+  <script setup>
+  import Hero from '~/components/Hero.vue'
+  import About from '~/components/About.vue';
+  import Skills from '~/components/Skills.vue';
+  </script>
+  
+
+
+<!-- <template>
     <v-container>
         <v-row>
             <v-col cols="12" md="4">
@@ -14,7 +30,7 @@
             <v-btn href="/Contactame" variant="text" prepend-icon="mdi-human-greeting-proximity"
                 stacked>Contactame</v-btn>
         </v-row>
-        <!-- <h2 class="text-start mt-6">Proyectos</h2> -->
+      
         <v-row class="pa-4">
             <v-card class="mt-8">
                 <v-row class="pa-4">
@@ -58,7 +74,7 @@
         <v-row justify="end">
             <v-btn variant="text" href="/proyectos">Ver proyectos</v-btn>
         </v-row>
-        <!-- <Skills /> -->
+       
 
     </v-container>
-</template>
+</template> -->
