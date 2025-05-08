@@ -7,7 +7,7 @@
   >
     <v-container class="d-flex justify-space-between align-center">
       <div class="text-h6 font-weight-bold text-white">
-        Raúl Escobar
+        Raul Escobar
       </div>
 
       <v-btn-toggle

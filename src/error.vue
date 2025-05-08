@@ -24,7 +24,7 @@
   </template>
   
   <script setup>
-  import image404 from './assets/atym.jpg'
+  import image404 from '../public/logoBlack.png'
   </script>
   
   <style scoped>
