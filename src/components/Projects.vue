@@ -81,7 +81,7 @@
       title: 'Portfolio Nuxt',
       description: 'Sitio personal desarrollado con Nuxt 3 y Vuetify, diseñado para destacar mis habilidades como desarrollador frontend. Incluye secciones dedicadas a mi experiencia, proyectos destacados y tecnologías que domino, todo presentado con una estética moderna, responsive y de alto rendimiento. Ideal para reclutadores, clientes o cualquier persona interesada en conocer mi perfil profesional.',
       image: imgAvatar,
-      live: '/',
+      live: '/#hero',
       repo: '',
     },
     {

@@ -12,7 +12,7 @@
         <v-carousel
           hide-delimiter-background
           cycle
-          height="auto"
+          height="200"
           show-arrows="hover"
           class="testimonial-carousel"
         >

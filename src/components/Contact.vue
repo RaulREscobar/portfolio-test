@@ -78,7 +78,7 @@
     const body = encodeURIComponent(
       `Nombre: ${form.value.name}\nEmail: ${form.value.email}\n\nMensaje:\n${form.value.message}`
     )
-    return `mailto:tuemail@dominio.com?subject=${subject}&body=${body}`
+    return `mailto:raul.r.escobar@gmail.com?subject=${subject}&body=${body}`
   })
   </script>
   

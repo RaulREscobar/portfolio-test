@@ -2,24 +2,25 @@
   <v-footer class="footer py-6 px-4" padless>
     <v-container>
       <v-row align="center" justify="space-between" class="text-white">
-        <v-col cols="12" md="4" class="text-center text-md-start mb-4 mb-md-0">
-          <span class="font-weight-bold">© {{ currentYear }} Raúl Escobar</span>
+        <v-col cols="12" md="3" class="text-center text-md-start mb-4 mb-md-0">
+          <span class="font-weight-bold">© {{ currentYear }} Raul Escobar</span>
         </v-col>
 
-        <v-col cols="12" md="4" class="text-center mb-4 mb-md-0">
+        <v-col cols="12" md="6" class="text-center mb-4 mb-md-0">
           <v-btn
             v-for="link in links"
             :key="link.label"
-            :href="link.href"
+            
             variant="text"
             color="primary"
-            class="mx-2"
+            class="mx-1"
+            @click="scrollTo(link.href)"
           >
             {{ link.label }}
           </v-btn>
         </v-col>
 
-        <v-col cols="12" md="4" class="text-center text-md-end">
+        <v-col cols="12" md="3" class="text-center text-md-end">
           <v-btn
             icon
             :href="social.github"
@@ -64,9 +65,14 @@ const links = [
 ]
 
 const social = {
-  github: 'https://github.com/tuusuario',
-  linkedin: 'https://www.linkedin.com/in/tuusuario/',
-  whatsapp: 'https://wa.me/541140766161', // Reemplazá con tu número
+  github: 'https://github.com/RaulREscobar',
+  linkedin: 'https://www.linkedin.com/in/raul-r-escobar/',
+  whatsapp: 'https://wa.me/5491168644494',
+}
+
+const scrollTo = (selector) => {
+    const el = document.querySelector(selector)
+    if (el) el.scrollIntoView({ behavior: 'smooth' })
 }
 </script>
 
