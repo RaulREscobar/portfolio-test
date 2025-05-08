@@ -17,12 +17,13 @@
             md="6"
             class="mb-8"
           >
-            <v-card elevation="5" class="rounded-xl project-card">
+            <v-card elevation="5" class="rounded-xl project-card d-flex align-center">
               <v-img
                 :src="project.image"
-                height="200"
+                height="150"
+                width="150"
+                class="rounded-circle"
                 cover
-                class="rounded-t-xl"
               />
               <v-card-text class="bg-surface text-white">
                 <h3 class="text-h6 font-weight-bold mb-2">{{ project.title }}</h3>
@@ -59,16 +60,9 @@
   <script setup>
     import imgGS from '../assets/gs.jpg';
     import imgLDL from '../assets/delaluz.jpg';
-    import imgLogo from '../../public/logo.png';
-
+    import imgLogo from '../../public/logofinal.png';
+    import imgAvatar from '../../public/foto-site.jpg';
   const projects = [
-    {
-      title: 'Portfolio Nuxt',
-      description: 'Sitio personal desarrollado con Nuxt 3 y Vuetify para mostrar mis habilidades como frontend.',
-      image: imgLogo,
-      live: '/',
-      repo: '',
-    },
     {
       title: 'Tienda Online',
       description: 'El sitio web lamparasdelaluz.com es una tienda online de iluminación artesanal. Se especializa en la venta de lámparas de diseño, ofreciendo una variedad de productos como lámparas colgantes, de pie, de mesa y apliques para interiores y exteriores.',
@@ -81,6 +75,20 @@
       description: 'El sitio web gransabanaremesas.web.app es una plataforma que ofrece servicios de envío de remesas. Esta orientado a facilitar transferencias de dinero, posiblemente enfocándose en la comunidad venezolana.',
       image: imgGS,
       live: 'https://gransabanaremesas.web.app/',
+      repo: '',
+    },
+    {
+      title: 'Portfolio Nuxt',
+      description: 'Sitio personal desarrollado con Nuxt 3 y Vuetify, diseñado para destacar mis habilidades como desarrollador frontend. Incluye secciones dedicadas a mi experiencia, proyectos destacados y tecnologías que domino, todo presentado con una estética moderna, responsive y de alto rendimiento. Ideal para reclutadores, clientes o cualquier persona interesada en conocer mi perfil profesional.',
+      image: imgAvatar,
+      live: '/',
+      repo: '',
+    },
+    {
+      title: 'Consultora de Desarrollo de Software',
+      description: 'Sitio web para EscCode, mi consultora de desarrollo de software. Es una SPA construida con Next.js, Tailwind CSS y Framer Motion, con diseño oscuro, elegante y animaciones suaves. Incluye secciones dinámicas como servicios, proyectos, testimonios y contacto, y fue optimizado para Firebase Hosting como sitio estático.',
+      image: imgLogo,
+      live: 'https://esccodesitio.web.app/',
       repo: '',
     },
   ]
