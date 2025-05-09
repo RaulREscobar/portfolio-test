@@ -15,9 +15,9 @@
             :key="i"
             cols="12"
             md="6"
-            class="mb-8"
+            class="mb-8 "
           >
-            <v-card elevation="5" class="rounded-xl project-card d-flex align-center">
+            <v-card elevation="5" class="rounded-xl project-card d-flex flex-column align-center pt-3 flex-sm-row">
               <v-img
                 :src="project.image"
                 height="150"

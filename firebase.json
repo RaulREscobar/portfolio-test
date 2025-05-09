@@ -1,12 +1,9 @@
 {
-  "functions": { "source": ".output/server" },
-  "hosting": [
-    {
-      "site": "esccode-198d2",
-      "public": "dist",
-      "cleanUrls": true,
+   "hosting": {
+    "site": "raulescobar",
+    "public": "dist",
+   "cleanUrls": true,
       "rewrites": [{ "source": "**", "destination": "/index.html" }],
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
-    }
-  ]
+  }
 }
