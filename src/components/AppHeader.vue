@@ -59,7 +59,7 @@ const navItems = [
   { label: 'Habilidades', href: '#skills' },
   { label: 'Proyectos', href: '#projects' },
   { label: 'Experiencia', href: '#experience' },
-  { label: 'Testimonios', href: '#testimonials' },
+  //{ label: 'Testimonios', href: '#testimonials' },
   { label: 'Contacto', href: '#contact' },
 ]
 </script>

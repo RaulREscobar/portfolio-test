@@ -52,7 +52,7 @@
             <p class="text-white">O escribime directamente a:</p>
             <v-btn
               href="mailto:raul.r.escobar@gmail.com"
-              color="secondary"
+              color="primary"
               variant="outlined"
               class="mt-2"
             >
