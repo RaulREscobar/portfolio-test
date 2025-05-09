@@ -1,15 +1,14 @@
 <template>
     <v-container id="skills" class="py-16">
-        <SectionTitle title="Habilidades y Tecnologías" />
-
-        <v-col cols="12" md="8" class="text-center mb-8">
-            <h2 class="text-h4 font-weight-bold text-primary">Habilidades & Tecnologías</h2>
-            <v-divider class="my-4" />
-            <p class="text-white">
-                Estas son algunas de las herramientas y tecnologías que uso regularmente.
-            </p>
-        </v-col>
-
+        <v-row justify="center">
+            <v-col cols="12" md="8" class="text-center mb-8">
+                <h2 class="text-h4 font-weight-bold text-primary">Habilidades & Tecnologías</h2>
+                <v-divider class="my-4" />
+                <p class="text-white">
+                    Estas son algunas de las herramientas y tecnologías que uso regularmente.
+                </p>
+            </v-col>
+        </v-row>
         <v-row class="mt-8" dense>
             <v-col v-for="(group, index) in categorizedSkills" :key="index" cols="12" sm="6" md="6" class="mb-6">
                 <v-card elevation="2" class="pa-4 h-100 bg-surface text-white" rounded="xl">
