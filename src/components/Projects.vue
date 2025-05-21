@@ -52,6 +52,11 @@
               </v-card-text>
             </v-card>
           </v-col>
+          <v-col align='center'>
+            <v-btn color="primary" @click="$router.push('/tech/alls')" class="ma-2">
+              Ver todos los proyectos
+            </v-btn>
+          </v-col>
         </v-row>
       </v-container>
     </section>

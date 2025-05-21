@@ -16,7 +16,7 @@
             <v-row>
                 <v-col v-for="project in filteredProjects" :key="project.id" cols="12" md="6" lg="4">
                     <v-card class="bg-surface pa-4" elevation="4">
-                        <v-img :src="project.image" height="180"  class="rounded-xl mb-4" />
+                        <v-img :src="project.image" height="180" class="rounded-xl mb-4" />
                         <v-card-title class="text-primary font-weight-bold text-h6">
                             {{ project.title }}
                         </v-card-title>
@@ -43,6 +43,10 @@
                     <v-btn color="primary" @click="$router.back()" prepend-icon="mdi-arrow-left">
                         Volver
                     </v-btn>
+                    <v-btn color="primary" @click="$router.push('/tech/alls')" class="ma-2">
+                        Ver todos los proyectos
+                    </v-btn>
+
                 </v-col>
             </v-row>
         </v-container>
@@ -90,7 +94,7 @@ const projects = [
         title: 'Sitio WordPress para un cliente',
         description: 'Sitio autoadministrable y optimizado para SEO.',
         image: imgAtym,
-        technologies: ['wordpress', 'html', 'css','SEO'],
+        technologies: ['wordpress', 'html', 'css', 'SEO'],
     },
     {
         id: 4,
@@ -134,7 +138,7 @@ const projects = [
         image: imgLaura,
         technologies: ['wordpress', 'html', 'css', 'woocommerce'],
     },
-     {
+    {
         id: 10,
         title: 'Portfolio Wordpress',
         description: 'Mejoras y mantenimiento en Portafolio fotográfico + Blog',
@@ -157,9 +161,10 @@ const projects = [
     },
 ]
 
-const filteredProjects = projects.filter((project) =>
-    project.technologies.includes(techSlug)
-)
+const filteredProjects = techSlug === 'alls'
+    ? projects :
+    projects.filter((project) => project.technologies.includes(techSlug)
+    )
 </script>
 
 <style scoped>
