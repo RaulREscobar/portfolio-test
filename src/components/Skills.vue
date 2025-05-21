@@ -19,7 +19,9 @@
                         <v-row dense>
                             <v-col v-for="(tech, idx) in group.items" :key="idx" class="">
                                 <v-chip :prepend-icon="tech.icon" color="primary" class="skill-card" variant="text"
-                                    size="large">
+                                    size="large"
+                                    @click="$router.push(`/tech/${tech.label.toLowerCase()}`)"
+                                    >
                                     {{ tech.label }}
                                 </v-chip>
                             </v-col>

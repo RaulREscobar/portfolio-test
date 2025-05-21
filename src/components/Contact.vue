@@ -12,32 +12,11 @@
       <v-row justify="center">
         <v-col cols="12" md="6">
           <form @submit.prevent="handleSubmit">
-            <v-text-field
-              v-model="form.name"
-              label="Nombre"
-              variant="outlined"
-              color="primary"
-              class="mb-4"
-              required
-            />
-            <v-text-field
-              v-model="form.email"
-              label="Email"
-              type="email"
-              variant="outlined"
-              color="primary"
-              class="mb-4"
-              required
-            />
-            <v-textarea
-              v-model="form.message"
-              label="Mensaje"
-              rows="4"
-              variant="outlined"
-              color="primary"
-              class="mb-4"
-              required
-            />
+            <v-text-field v-model="form.name" label="Nombre" variant="outlined" color="primary" class="mb-4" required />
+            <v-text-field v-model="form.email" label="Email" type="email" variant="outlined" color="primary"
+              class="mb-4" required />
+            <v-textarea v-model="form.message" label="Mensaje" rows="4" variant="outlined" color="primary" class="mb-4"
+              required />
             <v-btn type="submit" color="primary" block>Enviar mensaje</v-btn>
           </form>
         </v-col>
@@ -46,12 +25,7 @@
       <v-row justify="center" class="mt-8">
         <v-col cols="12" class="text-center">
           <p class="text-white">O escribime directamente a:</p>
-          <v-btn
-            href="mailto:raul.r.escobar@gmail.com"
-            color="primary"
-            variant="outlined"
-            class="mt-2"
-          >
+          <v-btn href="mailto:raul.r.escobar@gmail.com" color="primary" variant="outlined" class="mt-2">
             raul.r.escobar@gmail.com
           </v-btn>
         </v-col>
@@ -62,9 +36,9 @@
     <v-dialog v-model="dialog" max-width="300">
       <v-card>
         <v-card-title class="text-h6 text-primary text-center">¡Mensaje enviado!</v-card-title>
-        <v-card-text class="text-center pt-5 pb-0">Gracias por tu mensaje. 
+        <v-card-text class="text-center pt-5 pb-0">Gracias por tu mensaje.
           <br>
- Te responderé pronto 😊
+          Te responderé pronto 😊
         </v-card-text>
         <v-card-text></v-card-text>
         <v-card-actions>
