@@ -66,7 +66,7 @@
     import imgGS from '../assets/gs.jpg';
     import imgLDL from '../assets/delaluz.jpg';
     import imgLogo from '../../public/logofinal.png';
-    import imgAvatar from '../../public/foto-site.jpg';
+    import imgAvatar from '../assets/portfolio.png';
   const projects = [
     {
       title: 'Tienda Online',
