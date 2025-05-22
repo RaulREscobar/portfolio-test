@@ -120,9 +120,9 @@ const projects = [
     {
         id: 7,
         title: 'Landing para negocio',
-        description: 'Diseño de sitio a medida con Next.Js, Talwind y alojado en Firebase',
+        description: 'Diseño de sitio a medida con Next.Js, Tailwind y alojado en Firebase',
         image: imgEsc,
-        technologies: ['next.js', 'html', 'css', 'javascript', 'typescript', 'talwind', 'firebase', 'github'],
+        technologies: ['next.js', 'html', 'css', 'javascript', 'typescript', 'tailwind', 'firebase', 'github'],
     },
     {
         id: 8,
@@ -157,7 +157,7 @@ const projects = [
         title: 'Landing de Consultoria',
         description: 'Diseño, creación y puesta en marcha de landing page en Next js',
         image: imgTechnous,
-        technologies: ['next.js', 'talwind', 'css', 'html', 'react', 'typescript', 'javascript', 'firebase', 'figma', 'github'],
+        technologies: ['next.js', 'tailwind', 'css', 'html', 'react', 'typescript', 'javascript', 'firebase', 'figma', 'github'],
     },
 ]
 

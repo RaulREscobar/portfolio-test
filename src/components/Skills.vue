@@ -47,7 +47,8 @@ const categorizedSkills = [
             { label: 'React', icon: 'mdi-react' },
             { label: 'Next.js', icon: 'mdi-alpha-n-box' },
             { label: 'Bootstrap', icon: 'mdi-bootstrap' },
-        ],
+            { label: 'Tailwind', icon: 'mdi-tailwind' },
+        ]
     },
     {
         title: 'Backend',
