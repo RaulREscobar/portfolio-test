@@ -2,11 +2,20 @@
     <section id="about" class="about-section py-16 px-4">
       <v-container>
         <v-row justify="center">
-          <v-col cols="12" md="8">
+          <v-col cols="12">
             <div class="text-center mb-8">
-              <h2 class="text-h4 font-weight-bold mb-2 text-primary">Sobre mí</h2>
-              <v-divider class="my-4" />
-            </div>
+                <h2 class="text-h4 font-weight-bold mb-2 text-primary">Sobre mí</h2>
+                <v-divider class="my-4" />
+              </div>
+          </v-col>
+          <v-col cols="12" md="4">
+            <v-img
+                :src="imgAvatar"
+                height="250"
+                cover
+              />
+          </v-col>
+          <v-col cols="12" md="8">            
             <div class="text-body-1 text-white">
               <p class="mb-4">
                 ¡Hola! Soy desarrollador web con varios años de experiencia creando soluciones digitales que combinan <strong>funcionalidad</strong>, <strong>diseño</strong> y <strong>rendimiento</strong>. Me especializo en transformar ideas en productos web efectivos, manteniéndome siempre en <strong>aprendizaje constante</strong>.
@@ -19,10 +28,15 @@
               </p>
             </div>
           </v-col>
+          
         </v-row>
       </v-container>
     </section>
   </template>
+
+  <script setup>
+  import imgAvatar from '../assets/avatar.jpg';
+</script>
   
   <style scoped>
   .about-section {
